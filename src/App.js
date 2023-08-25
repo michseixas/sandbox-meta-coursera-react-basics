@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+function Header(){
+  return <h1>Hello World!! =D</h1>
+}
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Header />;
+ 
 }
 
 export default App;
+
+// The component named app calls another component named header, 
+// which displays an HTML heading with some texts. At the moment, the header 
+// component code exists in the same file as the app component. To make the 
+// header component isolated and reusable, I need to place it in its own file. 
+// Then I can reuse it multiple times in the application anytime I want to 
+// display a heading element with some texts.
