@@ -1,6 +1,6 @@
 function Bag(props) {
     const bag = {
-        padding: "20px",
+        padding: "200px",
         border: "1px solid gray",
         background: "#fff",
         margin: "20px 0"

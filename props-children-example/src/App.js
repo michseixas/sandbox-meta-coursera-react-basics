@@ -7,9 +7,10 @@ import Bags from './components/Bags'
 function App() {
   return (
     <div>
-      <Apples />
-      <Pears/>
-      <Bags/>
+    <Bags>
+        <Apples color="yellow" number="5" />
+        <Pears friend="Peter" />
+    </Bags>
     </div>
   );
 }
