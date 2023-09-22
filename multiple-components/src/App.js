@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from './component/Card';
 import Btn from "./component/Btn";
+import ModeToggler from "./component/ModeToggler";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Card h2="Second card's h2" h3="Second card's h3"/>
       <Card h2="Third card's h2" h3="Third card's h3"/>
       <Btn />
+      <ModeToggler/>
     </div>
   );
 }
